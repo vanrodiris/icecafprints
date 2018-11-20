@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  <title>Ice Crown Cafe</title>
+  <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+    $(window).on('scroll', function() {
+      if($(window).scrollTop()) {
+        $('nav').addClass('black');
+      }
+        else {
+      $('nav').removeClass('black');
+  }}) 
+</script>
+<style type="text/css">
+.menu-icon {
+  line-height: 60px;
+      width: 100%;
+      background: #00ff00;
+      text-align: left;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-2 {
+  background-image: url("img/coffee-shop.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img/coffee-shop.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("img/bg3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" class="logo" href="#"><img src="img/icecrownv2.png" width="50px" height="50px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="dropdown"  style="cursor: pointer; color: gray;">
+          <ul class="navbar-nav dropdown">
+          <li class="nav-item"><a>Menu</a></li>
+          </ul>
+          <div class="dropdown-content">
+            <a href="about.html">about</a>
+            <a href="#Meals">Meals</a>
+            <a href="#DRINKS">Beverages</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border">ICE CROWN CAFE</span>
+  </div>
+</div>
+
+
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    
+	
+	<div class="row">
+            <div class="col-lg-12">
+              <div id="Meals">
+                <h1 class="page-header"><center>SANDWICHES</center></h1>
+              </div>
+            </div>
+        </div>
+	<table cellpadding="10" style="width:100%">
+  <tr>
+    <th><center><img src="img/S1.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">HAM</button>
+	</center></th>
+    <th><center><img src="img/S2.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">CHICKEN</button>
+	</center></th>
+	<th><center><img src="img/S3.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">PANDOG</button>
+	</center></th>
+  </tr>
+</table>
+	
+	
+  </div>
+</div>
+
+
+
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;">MORE MEALS!</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    
+	
+	<div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"><center>PASTA</center></h1>
+            </div>
+        </div>
+	<table cellpadding="10" style="width:100%">
+  <tr>
+    <th><center><img src="img/p1.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">BACON AND CHEESE</button>
+	</center></th>
+    <th><center><img src="img/p2.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">CARBONARA SUPREME</button>
+	</center></th>
+	<th><center><img src="img/p3.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">PRIMA LASAGNA</button>
+	</center></th>
+  </tr>
+  
+</table>
+<br><br><br>	
+<div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"><center>PASTRY</center></h1>
+            </div>
+        </div>
+<table cellpadding="10" style="width:100%">
+  <tr>
+    <th><center><img src="img/ps1.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">CROISSANT</button>
+	</center></th>
+    <th><center><img src="img/ps2.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">PANDESAL</button>
+	</center></th>
+	<th><center><img src="img/ps3.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">CHEESE BREAD</button>
+	</center></th>
+  </tr>
+  
+</table>
+	
+	
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <div id="DRINKS">
+    <span class="border" style="background-color:black;font-size:25px;color: #f7f7f7;">DONT MISS OUR DRINKS</span>
+  </div>
+  </div>
+</div>
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    
+	
+	<div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header"><center>COFFEE</center></h1>
+            </div>
+        </div>
+	<table cellpadding="10" style="width:100%">
+  <tr>
+    <th><center><img src="img/c1.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">AMERICANO</button>
+	</center></th>
+    <th><center><img src="img/c2.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">CAFE LATE</button>
+	</center></th>
+	<th><center><img src="img/c3.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">HOT SOMETHING</button>
+	</center></th>
+  </tr>
+  <tr>
+    <th><center><img src="img/ic1.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">ICED COFFEE</button>
+	</center></th>
+    <th><center><img src="img/ic2.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">COLD BLOODED</button>
+	</center></th>
+	<th><center><img src="img/ic3.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">CARAMEL CAMEL</button>
+	</center></th>
+  </tr>
+    <th><center><img src="img/f1.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">JAVA CHIP</button>
+	</center></th>
+    <th><center><img src="img/f2.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">MOCHA FRAPPE</button>
+	</center></th>
+	<th><center><img src="img/f3.png" width="250" height="250"><br><br>
+	<button type="button" class="btn btn-outline-secondary">VANILLA CREAM</button>
+	</center></th>
+  </tr>
+</table>
+	
+	
+  </div>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border">ORDER NOW!</span>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
